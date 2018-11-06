@@ -7,7 +7,7 @@ Using Linear Regression to make two predictions:
 2. School Type + Starting Median Salary -> Mid-Career Median Salary
 
 RMSE Accuracies:
-| Prediction | RMSE   |
-| ---------- | ------ |
-| 1          | $6700  |
-| 2          | $5000  |
+ Prediction | RMSE
+ ---------- | ------
+1 | $6700
+2 | $5000
