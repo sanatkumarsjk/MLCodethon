@@ -29,7 +29,7 @@ X = data[["Starting Median Salary", "Region_California", "Region_Midwestern",
 
 y = data["Mid-Career Median Salary"]
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
 
 linear_clf = LinearRegression()
 
